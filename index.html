@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Horizon Campaign Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-inner">
+            <p class="eyebrow">Marketing Strategy Dashboard</p>
+            <h1>Green Horizon Campaign Dashboard</h1>
+            <p class="hero-text">
+                Interactive campaign overview for an eco-friendly product launch focused on awareness, engagement, education, and growth.
+            </p>
+            <div class="hero-actions">
+                <button onclick="scrollToSection('overview')">View Overview</button>
+                <button onclick="scrollToSection('roadmap')">View Roadmap</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <section class="panel" id="overview">
+            <h2>Campaign Overview</h2>
+            <div class="summary-grid" id="summaryGrid"></div>
+        </section>
+
+        <section class="panel" id="goals">
+            <h2>Campaign Goals</h2>
+            <div class="card-grid" id="goalsGrid"></div>
+        </section>
+
+        <section class="panel" id="audience">
+            <h2>Target Audience</h2>
+            <div class="card-grid" id="audienceGrid"></div>
+        </section>
+
+        <section class="panel" id="scope">
+            <h2>Scope</h2>
+            <div class="scope-grid">
+                <div class="scope-card">
+                    <h3>In Scope</h3>
+                    <ul id="inScopeList"></ul>
+                </div>
+                <div class="scope-card">
+                    <h3>Out Of Scope</h3>
+                    <ul id="outScopeList"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="roadmap">
+            <h2>Execution Roadmap</h2>
+            <div class="card-grid" id="phasesGrid"></div>
+        </section>
+
+        <section class="panel" id="metrics">
+            <h2>Success Metrics</h2>
+            <div class="card-grid" id="metricsGrid"></div>
+        </section>
+
+        <section class="panel" id="risks">
+            <h2>Risk Management</h2>
+            <div class="card-grid" id="risksGrid"></div>
+        </section>
+
+        <section class="panel" id="benefits">
+            <h2>Expected Benefits</h2>
+            <div class="card-grid" id="benefitsGrid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Green Horizon Campaign Dashboard • Portfolio Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

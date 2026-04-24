@@ -1,97 +1,60 @@
-# Green-Horizon-Campaign
+﻿# Green Horizon Campaign Dashboard
 
-## Project Overview
+## Overview
 
-The **Green Horizon Campaign** is a strategic marketing initiative aimed at launching our new eco-friendly product line this spring. This campaign focuses on raising awareness about sustainable living and promoting our innovative products that contribute to a healthier planet. Through targeted marketing efforts, we aim to engage environmentally conscious consumers and drive sales while fostering a community committed to sustainability.
+Green Horizon Campaign Dashboard is a browser-based campaign planning and strategy presentation project for an eco-friendly product launch initiative.
 
-## Project Goals
+This project is positioned as a recruiter-ready frontend portfolio piece. It transforms a static campaign brief into an interactive dashboard that presents strategic goals, audience focus, scope, execution phases, success metrics, risks, and expected benefits in a cleaner and more accessible format.
 
-1. **Increase Brand Awareness**: Elevate the visibility of our eco-friendly product line among target audiences.
-2. **Drive Sales**: Achieve a 20% increase in sales for the new product line within the first quarter post-launch.
-3. **Engage Target Audience**: Build a loyal customer base by fostering community engagement and interaction.
-4. **Educate Consumers**: Inform potential customers about the benefits of using eco-friendly products.
+## Real-World Business Use Case
 
-## Target Audience
+This project maps to practical workflows used by:
 
-- Environmentally conscious consumers aged 18-45
-- Families looking for sustainable alternatives
-- Health-conscious individuals interested in eco-friendly living
-- Local communities engaged in sustainability initiatives
+- Marketing Teams
+- Campaign Coordinators
+- Brand Strategists
+- Frontend Developers Building Internal Tools
+- Stakeholders Reviewing Campaign Plans
 
-## Scope
+A team may need to answer questions such as:
 
-### In-Scope
-- Market research and competitive analysis
-- Development and execution of marketing materials (digital and print)
-- Social media strategy and management
-- Email marketing campaigns
-- Collaboration with influencers and eco-activists
-- Event planning for launch activities
+- What are the primary campaign goals?
+- Who is the target audience?
+- What is in scope and out of scope?
+- What metrics define success?
+- What risks and benefits should be communicated clearly?
 
-### Out-of-Scope
-- Development of new products
-- Global marketing efforts beyond the initial launch region
-- In-depth public relations campaigns
+This dashboard is useful for campaign planning, internal review, stakeholder communication, and portfolio demonstration of turning a static brief into a browser-based experience.
 
-## Methodology
+## Key Features
 
-- **Market Research**: Conduct surveys and focus groups to understand consumer preferences and trends.
-- **Budgeting**: Allocate resources effectively to maximize ROI across various marketing channels.
-- **Cross-Functional Collaboration**: Work with design, product development, and sales teams to ensure cohesive messaging.
-- **Campaign Analysis**: Monitor and evaluate the campaign's performance using key metrics.
+- Campaign Overview Cards
+- Goals Section
+- Target Audience Section
+- Scope Breakdown
+- Execution Roadmap
+- Success Metrics Section
+- Risk Management Section
+- Expected Benefits Section
+- Responsive Browser-Based UI
 
-## Execution Phases
+## Tech Stack
 
-1. **Phase 1: Planning (Weeks 1-4)**
-   - Conduct market research
-   - Develop campaign strategy and messaging
-   - Create a detailed budget
+- HTML
+- CSS
+- JavaScript
 
-2. **Phase 2: Development (Weeks 5-8)**
-   - Design marketing materials (brochures, social media graphics, etc.)
-   - Set up social media accounts and content calendar
-   - Initiate influencer partnerships
+## Repository Contents
 
-3. **Phase 3: Launch (Weeks 9-12)**
-   - Execute the marketing campaign across all channels
-   - Host a launch event or webinar
-   - Monitor engagement and gather feedback
+- `index.html`
+- `styles.css`
+- `script.js`
+- `README.md`
+- `Green Horizon Campaign.pdf`
 
-## Metrics for Success
+## How To Run
 
-- **Sales Growth**: Measure the percentage increase in sales compared to previous quarters.
-- **Customer Engagement**: Track social media interactions, shares, and comments.
-- **Website Traffic**: Monitor traffic to the product landing page and overall site.
-- **Email Open Rates**: Analyze the effectiveness of email campaigns.
+Open the dashboard in a browser.
 
-## Risk Management
-
-### Potential Risks:
-1. **Low Consumer Engagement**: Risk of not reaching the target audience effectively.
-   - **Mitigation**: Utilize targeted advertising and influencer partnerships to enhance reach.
-
-2. **Budget Overruns**: Potential for exceeding the planned budget.
-   - **Mitigation**: Regularly track expenses and adjust strategies as necessary.
-
-3. **Negative Feedback**: Risk of receiving backlash on social media.
-   - **Mitigation**: Prepare a crisis communication plan and monitor brand sentiment.
-
-## Benefits
-
-- **Increased Sales**: Directly contribute to the company’s revenue growth.
-- **Enhanced Brand Loyalty**: Build a community of customers who advocate for eco-friendly practices.
-- **Positive Environmental Impact**: Promote sustainable living and contribute to environmental conservation.
-
-## Appendix
-
-### Project Timeline
-- **Week 1-4**: Planning and market research
-- **Week 5-8**: Development of marketing materials
-- **Week 9-12**: Campaign launch and analysis
-
-### Contact Information
-For questions or suggestions related to this project, please reach out to [jacovanrooyen21@gmail.com].
-
-## Contributing
-
-Contributions are welcome! If you have ideas or would like to collaborate on future initiatives, please feel free to submit a pull request or open an issue.
+```powershell
+Start-Process .\index.html
