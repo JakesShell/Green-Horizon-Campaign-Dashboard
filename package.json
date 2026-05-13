@@ -1,0 +1,17 @@
+{
+  "name": "ecosignal-campaign-impact-and-trust-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EcoSignal is a sustainability campaign impact and trust analytics platform for campaign performance, green claim proofing, evidence review, budget efficiency, and executive reporting.",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test",
+    "audit:check": "npm audit --audit-level=high && npm --prefix server audit --audit-level=high && npm --prefix client audit --audit-level=high"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

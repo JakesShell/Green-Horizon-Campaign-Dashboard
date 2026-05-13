@@ -1,0 +1,103 @@
+[
+  {
+    "id": "green-horizon-refill",
+    "name": "Green Horizon Refill Launch",
+    "brand": "JSA Enterprise",
+    "owner": "Maya Chen",
+    "ownerInitials": "MC",
+    "department": "Sustainability Marketing",
+    "status": "Active",
+    "stage": "Scale Review",
+    "launchDate": "2026-05-01",
+    "endDate": "2026-07-12",
+    "budget": 82000,
+    "spendToDate": 46800,
+    "targetAudience": "Urban families and eco-conscious retail shoppers",
+    "summary": "A refill product campaign focused on reducing single-use packaging through retail partnerships, content education, and community pledges.",
+    "goals": ["Reduce single-use packaging", "Increase refill adoption", "Improve brand trust"],
+    "channels": [
+      { "name": "Partner Outreach", "spend": 9800, "reach": 42000, "engagements": 7900, "conversions": 1280, "impactActions": 4100, "sentiment": 84 },
+      { "name": "Paid Social", "spend": 15800, "reach": 165000, "engagements": 6200, "conversions": 610, "impactActions": 1140, "sentiment": 68 },
+      { "name": "Email", "spend": 4200, "reach": 36000, "engagements": 4800, "conversions": 760, "impactActions": 1810, "sentiment": 79 },
+      { "name": "Events", "spend": 17000, "reach": 13000, "engagements": 3700, "conversions": 930, "impactActions": 2600, "sentiment": 88 }
+    ],
+    "impact": { "plasticKgAvoided": 2740, "co2KgAvoided": 5150, "reusableUnitsAdopted": 18400, "pledgesCompleted": 6200, "partnerProofCount": 7, "evidenceCoverage": 78 },
+    "claims": [
+      { "id": "GH-CLM-01", "text": "Helped customers avoid 2.7 tons of single-use plastic.", "stage": "Approved For Public Use", "evidenceIds": ["EV-001", "EV-002"], "specificity": 92, "risk": "Low" },
+      { "id": "GH-CLM-02", "text": "A planet-positive choice for every household.", "stage": "Needs Evidence", "evidenceIds": [], "specificity": 32, "risk": "High" },
+      { "id": "GH-CLM-03", "text": "Retail partners helped drive more than 18,000 refill adoptions.", "stage": "ESG Review", "evidenceIds": ["EV-003"], "specificity": 84, "risk": "Moderate" }
+    ],
+    "evidence": [
+      { "id": "EV-001", "type": "Supplier Report", "title": "Refill Unit Shipment Verification", "owner": "Supply Chain", "confidence": "High", "status": "Verified" },
+      { "id": "EV-002", "type": "Impact Model", "title": "Plastic Avoidance Calculation", "owner": "ESG Team", "confidence": "Medium", "status": "Verified" },
+      { "id": "EV-003", "type": "Partner Confirmation", "title": "Retail Partner Adoption Report", "owner": "Partnerships", "confidence": "Medium", "status": "Under Review" }
+    ],
+    "risks": ["Landing page conversion below target", "One claim requires legal review", "Paid ads have low impact per dollar"]
+  },
+  {
+    "id": "low-waste-workplace",
+    "name": "Low-Waste Workplace Challenge",
+    "brand": "JSA Enterprise",
+    "owner": "Noah Brooks",
+    "ownerInitials": "NB",
+    "department": "Corporate Social Responsibility",
+    "status": "Active",
+    "stage": "Engagement Build",
+    "launchDate": "2026-04-18",
+    "endDate": "2026-06-30",
+    "budget": 45000,
+    "spendToDate": 21400,
+    "targetAudience": "Corporate employees and office operations teams",
+    "summary": "An internal sustainability campaign encouraging employees to reduce office waste through team pledges, supply changes, and weekly impact reporting.",
+    "goals": ["Reduce office waste", "Increase employee participation", "Create measurable ESG proof"],
+    "channels": [
+      { "name": "Internal Email", "spend": 2800, "reach": 18500, "engagements": 6900, "conversions": 1540, "impactActions": 3200, "sentiment": 82 },
+      { "name": "Workshops", "spend": 7200, "reach": 2600, "engagements": 1750, "conversions": 880, "impactActions": 1900, "sentiment": 90 },
+      { "name": "Slack Campaign", "spend": 1600, "reach": 14500, "engagements": 5100, "conversions": 1260, "impactActions": 2400, "sentiment": 77 },
+      { "name": "Facilities Signage", "spend": 4200, "reach": 22000, "engagements": 3100, "conversions": 670, "impactActions": 1200, "sentiment": 72 }
+    ],
+    "impact": { "plasticKgAvoided": 860, "co2KgAvoided": 1890, "reusableUnitsAdopted": 9200, "pledgesCompleted": 5100, "partnerProofCount": 4, "evidenceCoverage": 66 },
+    "claims": [
+      { "id": "LW-CLM-01", "text": "Employees completed more than 5,000 low-waste pledges.", "stage": "Approved For Public Use", "evidenceIds": ["EV-010"], "specificity": 88, "risk": "Low" },
+      { "id": "LW-CLM-02", "text": "Our offices are becoming zero-waste.", "stage": "Legal Review", "evidenceIds": [], "specificity": 40, "risk": "High" }
+    ],
+    "evidence": [
+      { "id": "EV-010", "type": "Survey Export", "title": "Employee Pledge Completion Report", "owner": "People Ops", "confidence": "High", "status": "Verified" },
+      { "id": "EV-011", "type": "Facilities Report", "title": "Waste Bin Volume Trend", "owner": "Facilities", "confidence": "Medium", "status": "Under Review" }
+    ],
+    "risks": ["Evidence coverage needs improvement", "Zero-waste phrasing is too broad"]
+  },
+  {
+    "id": "clean-delivery-pilot",
+    "name": "Clean Delivery Pilot",
+    "brand": "JSA Enterprise",
+    "owner": "Elena Wright",
+    "ownerInitials": "EW",
+    "department": "Product Growth",
+    "status": "Monitoring",
+    "stage": "Pilot Reporting",
+    "launchDate": "2026-03-22",
+    "endDate": "2026-06-08",
+    "budget": 110000,
+    "spendToDate": 89200,
+    "targetAudience": "Retail customers in selected urban delivery zones",
+    "summary": "A market pilot promoting lower-emission delivery options, transparent customer education, and verified reporting for executive decision-making.",
+    "goals": ["Increase clean delivery adoption", "Validate cost efficiency", "Protect customer trust"],
+    "channels": [
+      { "name": "Checkout Prompt", "spend": 12000, "reach": 210000, "engagements": 24000, "conversions": 9200, "impactActions": 9200, "sentiment": 74 },
+      { "name": "Paid Search", "spend": 24200, "reach": 128000, "engagements": 4100, "conversions": 860, "impactActions": 920, "sentiment": 61 },
+      { "name": "Customer Email", "spend": 5500, "reach": 69000, "engagements": 8600, "conversions": 2100, "impactActions": 2500, "sentiment": 81 },
+      { "name": "Partner PR", "spend": 14800, "reach": 88000, "engagements": 5200, "conversions": 1300, "impactActions": 1800, "sentiment": 86 }
+    ],
+    "impact": { "plasticKgAvoided": 0, "co2KgAvoided": 12800, "reusableUnitsAdopted": 0, "pledgesCompleted": 3400, "partnerProofCount": 5, "evidenceCoverage": 58 },
+    "claims": [
+      { "id": "CD-CLM-01", "text": "Customers avoided an estimated 12.8 tons of delivery emissions.", "stage": "Needs Evidence", "evidenceIds": ["EV-020"], "specificity": 81, "risk": "Moderate" },
+      { "id": "CD-CLM-02", "text": "Clean delivery is always the better choice.", "stage": "Rejected / Too Risky", "evidenceIds": [], "specificity": 28, "risk": "High" }
+    ],
+    "evidence": [
+      { "id": "EV-020", "type": "Carbon Model", "title": "Delivery Emissions Estimate", "owner": "Data Science", "confidence": "Medium", "status": "Under Review" },
+      { "id": "EV-021", "type": "Analytics Export", "title": "Checkout Conversion Data", "owner": "Product Analytics", "confidence": "High", "status": "Verified" }
+    ],
+    "risks": ["High spend concentration", "Evidence coverage below public-reporting threshold", "Paid search underperforming"]
+  }
+]

@@ -1,60 +1,58 @@
-﻿# Green Horizon Campaign Dashboard
+# EcoSignal Campaign Impact And Trust Analytics
 
-## Overview
+EcoSignal is a full-stack sustainability campaign intelligence platform built for JSA Enterprise. It helps marketing, ESG, legal, and executive teams evaluate whether green campaigns are performing, whether sustainability claims are backed by evidence, and whether public messaging is ready to scale.
 
-Green Horizon Campaign Dashboard is a browser-based campaign planning and strategy presentation project for an eco-friendly product launch initiative.
+## What This Project Solves
 
-This project is positioned as a recruiter-ready frontend portfolio piece. It transforms a static campaign brief into an interactive dashboard that presents strategic goals, audience focus, scope, execution phases, success metrics, risks, and expected benefits in a cleaner and more accessible format.
+Companies often run sustainability campaigns without a clear way to connect marketing performance, environmental impact, evidence quality, budget efficiency, and greenwashing risk. EcoSignal turns those signals into a decision workflow.
 
-## Real-World Business Use Case
+## Core Features
 
-This project maps to practical workflows used by:
-
-- Marketing Teams
-- Campaign Coordinators
-- Brand Strategists
-- Frontend Developers Building Internal Tools
-- Stakeholders Reviewing Campaign Plans
-
-A team may need to answer questions such as:
-
-- What are the primary campaign goals?
-- Who is the target audience?
-- What is in scope and out of scope?
-- What metrics define success?
-- What risks and benefits should be communicated clearly?
-
-This dashboard is useful for campaign planning, internal review, stakeholder communication, and portfolio demonstration of turning a static brief into a browser-based experience.
-
-## Key Features
-
-- Campaign Overview Cards
-- Goals Section
-- Target Audience Section
-- Scope Breakdown
-- Execution Roadmap
-- Success Metrics Section
-- Risk Management Section
-- Expected Benefits Section
-- Responsive Browser-Based UI
+- Campaign impact overview
+- Channel performance analytics
+- Green claim proof review
+- Evidence vault
+- Impact confidence scoring
+- Brand trust and greenwashing risk monitor
+- Budget reallocation intelligence
+- Executive impact reporting
+- Role-aware simulated workflows
+- Audit logging for claim review events
+- AWS-ready health endpoint and deployment documentation
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- React + Vite frontend
+- Node.js + Express backend
+- JSON data layer
+- Helmet security headers
+- CORS origin restriction
+- API rate limiting
+- Zod request validation
+- Docker-ready backend
+- GitHub Actions CI workflow
 
-## Repository Contents
-
-- `index.html`
-- `styles.css`
-- `script.js`
-- `README.md`
-- `Green Horizon Campaign.pdf`
-
-## How To Run
-
-Open the dashboard in a browser.
+## Local Development
 
 ```powershell
-Start-Process .\index.html
+npm run install:all
+npm run dev
+```
+
+Frontend: `http://localhost:5173`
+
+Backend: `http://localhost:8080`
+
+Health check: `http://localhost:8080/health`
+
+## Security Considerations
+
+This project includes secure headers, CORS restrictions, rate limiting, input validation, simulated role-aware authorization, structured audit logs, controlled error handling, and no real customer/legal/ESG data.
+
+## AWS Readiness
+
+EcoSignal is structured for a future AWS deployment with a React frontend on S3 + CloudFront, a Node API on ECS Fargate, `/health` for load balancer checks, `.env.example` for configuration, CloudWatch-ready logs, Dockerfile, and AWS deployment documentation.
+
+## Portfolio Value
+
+EcoSignal is designed as a SaaS module for a larger JSA Enterprise Operations Platform. It demonstrates product thinking, full-stack development, cloud readiness, responsible sustainability messaging, business analytics, security controls, and executive reporting.
